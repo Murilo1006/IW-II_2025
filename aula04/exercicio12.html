@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let nota;
+
+        while (true) {
+          nota = prompt("Digite uma nota de 0 a 10:");
+          nota = parseFloat(nota);
+          if (nota >= 0 && nota <= 10) {
+                break;
+          } else {
+                alert("Por favor, insira uma nota válida entre 0 e 10.");
+              }
+            }
+        alert("Nota válida: " + nota);
+        </script>
+</body>
+</html>

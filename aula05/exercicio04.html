@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Média de Números</title>
+</head>
+<body>
+    <script>
+        function media(a, b, c, d) {
+            var soma = a + b + c + d;
+            var resultado = soma / 4;
+            alert("A média dos números é: " + resultado);
+        }
+
+        var num1 = prompt("Digite o primeiro número:");
+        var num2 = prompt("Digite o segundo número:");
+        var num3 = prompt("Digite o terceiro número:");
+        var num4 = prompt("Digite o quarto número:");
+
+        num1 = parseFloat(num1);
+        num2 = parseFloat(num2);
+        num3 = parseFloat(num3);
+        num4 = parseFloat(num4);
+
+        media(num1, num2, num3, num4);
+    </script>
+</body>
+</html>

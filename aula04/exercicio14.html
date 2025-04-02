@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let valor = prompt("Digite o valor para o saque:");
+        let notas = [100, 50, 20, 10, 5, 2, 1];
+        let resultado = "";
+        for (let i = 0; i < notas.length; i++) {
+            let qtd = parseInt(valor / notas[i]);
+            if (qtd > 0) {
+                resultado += qtd + " nota(s) de " + notas[i] + "\n";
+                valor = valor - qtd * notas[i];
+            }
+        }
+        alert(resultado);
+    </script>
+      
+</body>
+</html>

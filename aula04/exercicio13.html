@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let notas = [];
+        for (let i = 0; i < 3; i++) {
+            notas.push(parseFloat(prompt("Digite uma nota " + (i + 1) + ":")));
+        }
+            let media = (notas[0] + notas[1] + notas[2]) / 3;
+                if (media >= 7) {
+                    alert("Média: " + media + " - Aprovado");
+                } else {
+                    alert("Média: " + media + " - Reprovado");
+                }
+    </script>
+</body>
+</html>

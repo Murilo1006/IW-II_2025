@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let usuario, senha;
+        while (true) {
+            usuario = prompt("Usuário:");
+            senha = prompt("Senha:");
+            if (usuario === "Murilo" && senha === "Etec") {
+                alert("Login feito com sucesso!");
+                break;
+            } else {
+                alert("Usuário ou senha incorretos, tente novamente.");
+            }
+        }
+    </script>
+</body>
+</html>

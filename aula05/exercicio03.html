@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fatorial</title>
+</head>
+<body>
+    <script>
+        function fatorial(n) {
+            var resultado = 1;
+            var i = 2;
+            while (i <= n) {
+                resultado = resultado * i;
+                i = i + 1;
+            }
+            alert("O fatorial de " + n + " é: " + resultado);
+        }
+
+        var numero = prompt("Digite um número para calcular o fatorial:");
+        numero = parseInt(numero);
+
+        fatorial(numero);
+    </script>
+</body>
+</html>

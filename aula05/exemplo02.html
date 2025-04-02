@@ -3,13 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Função com Parâmetros</title>
 </head>
 <body>
     <script>
-        let num1 = prompt("Digite o primeiro número:");
-        let num2 = prompt("Digite o segundo número:");
-        alert("A soma é: " + (Number(num1) + Number(num2)));
+        function cumprimentar(nome) {
+            alert("Olá, " + nome + "!");
+        }
+
+        cumprimentar("Murilo");
     </script>
 </body>
 </html>
