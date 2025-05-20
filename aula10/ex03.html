@@ -3,15 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exercício 03</title>
+    <title>Document</title>
 </head>
-
 <body>
-
-    <input type="text" id="caixa" placeholder="Digite um texto aqui" onkeyup="mostrar()">
-    <button id="btn_mostrar">Confirmar</button>
-    <br>
-    <p>Aqui vai aparecer algo ==> <span id="texto"></span></p>
+    <input type="text" id="caixa"> 
+    <button id="botao" onclick="mostrar()">Confirmar</button>
 
     <script>
         var valor = document.getElementById('caixa')
@@ -24,9 +20,7 @@
                 alert(novo);
                 antigo = novo;
             }
-            
         }
     </script>
-
 </body>
 </html>
